@@ -4,6 +4,13 @@ Google Homeのスキルを自動で起動するためのトリガーデバイス
 
 ## ビルド
 
+### ライブラリ
+
+以下２つのライブラリをインストールしてください．
+
+* [ESP8266WiFi](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WiFi)
+* [MQTT](https://github.com/256dpi/arduino-mqtt)
+
 ### `google-home-trigger.ino`
 
 * `ssid`と`password`を接続したいWi-Fiの情報に変更してください
